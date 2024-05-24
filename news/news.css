@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    position: absolute;
+    height: 50px;
+    padding: 10px;
+    filter: invert(1);
+}
+.displayimg img{
+    width: 100%;
+}
+.content1 {
+    background-color: #181C20;
+}
+.content1 h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+.content1 p {
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.content2 p{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+.content2 img {
+    width: 49.5%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* footer */
+
+.fcontent {
+    height: 600px;
+    width: 100%;
+    background-color: #181C20;
+    display: flex;
+    justify-content: space-between;
+}
+.fcontent .p1 {
+    width: 70%;
+    text-align: center;
+}
+.p1 h4 {
+    margin: 50px;
+    font-size: 35px;
+    color:#fff; 
+}
+.p1 a {
+    color: #9da8ad;
+    font-size: 30px;
+    padding: 20px; 
+    transition: 0.2s; 
+}
+.p1 a:hover {
+    color: #ffffff;
+}
+.fcontent .p2 {
+    height: 500px;
+    width: 30%;
+    background-color: #36454f;
+    text-align: center;
+    padding: 50px;
+}
+.p2 h4 {
+    font-size: 35px;
+    color:#fff;
+}
+.p2 a {
+    color: #9da8ad;
+    font-size: 30px; 
+        transition: 0.2s; 
+
+}
+.p2 a:hover {
+    color: #ffffff;
+}
+.p1 img {
+    padding: 25px;
+    max-width: 300px;
+    filter: invert(1);
+    float: left;
+    position: relative;
+    top: 8%;
+    padding: 50px;
+    padding-bottom: 0;
+    
+}
+
+
+
+@media (max-width : 600px) {
+    .logo img{
+        position: absolute;
+        height: 40px;
+        /* padding: 10px; */
+    }
+    .displayimg img{
+        width: 100%;
+    }
+    .content1 h1 {
+        padding: 0;
+    }
+    .content1 p {
+        padding: 3px;
+    }
+    .content2 img {
+        width: 100%;
+    }
+    .content2 p {
+        padding: 2px;
+    }
+    .fcontent {
+        display: grid;
+    }
+    .fcontent .p1 {
+        width: 100%;
+        text-align: center;
+    }
+    .fcontent .p2 {
+        width: 75%;
+        background-color: #36454f;
+        text-align: center;
+    }
+    .p1 img {
+        top: 550px;
+    }
+    .video {
+        padding: 0px;
+    }
+}

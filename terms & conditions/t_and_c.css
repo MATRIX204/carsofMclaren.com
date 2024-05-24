@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.fullpage {
+    height: auto;
+    width: 100%;
+}
+.logo {
+    height: 70px;
+    width: 100%;
+    background-color: #181C20;
+}
+.logo img {
+    padding: 15px;
+    max-width: 200px;
+    filter: invert(1);
+}
+.greenpae {
+    height: 300px;
+    width: 100%;
+    background-color: #181C20;
+}
+.greenpae h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 180px;
+   
+    padding: 30px;
+}
+.content {
+    padding: 240px;
+    font-size: 20px;
+}
+.content p {
+    color: #363f44;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, Helvetica, sans-serif;
+}
+
+.content h3 {
+    font-size: 30px;
+}
+
+.footer img {
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 80px;
+}
+.footer h4 {
+    position: relative;
+    bottom: 250px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.footer img:hover {
+    opacity: 0.7;
+}
+.f1 {
+    position: relative;
+    bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+
+/* footer */
+
+.fcontent {
+    height: 600px;
+    width: 100%;
+    background-color: #181C20;
+    display: flex;
+    justify-content: space-between;
+}
+.fcontent .p1 {
+    width: 70%;
+    text-align: center;
+}
+.p1 h4 {
+    margin: 50px;
+    font-size: 35px;
+    color:#fff; 
+}
+.p1 a {
+    color: #9da8ad;
+    font-size: 30px;
+    padding: 20px; 
+    transition: 0.2s; 
+}
+.p1 a:hover {
+    color: #ffffff;
+}
+.fcontent .p2 {
+    height: 500px;
+    width: 30%;
+    background-color: #36454f;
+    text-align: center;
+    padding: 50px;
+}
+.p2 h4 {
+    font-size: 35px;
+    color:#fff;
+}
+.p2 a {
+    color: #9da8ad;
+    font-size: 30px; 
+        transition: 0.2s; 
+
+}
+.p2 a:hover {
+    color: #ffffff;
+}
+.p1 img {
+    padding: 25px;
+    max-width: 300px;
+    filter: invert(1);
+    float: left;
+    position: relative;
+    top: 8%;
+    padding: 50px;
+    padding-bottom: 0;
+    
+}
+
+
+
+
+
+@media (max-width : 600px) {
+    .fullpage {
+        padding: 0;
+    }
+    .logo {
+        width: 100%;
+    }   
+    .greenpae h1 {
+        font-size: 40px;
+    }
+    .content {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    .fcontent {
+        display: grid;
+    }
+    .fcontent .p1 {
+        width: 100%;
+        text-align: center;
+    }
+    .fcontent .p2 {
+       
+        width: 77%;
+        background-color: #36454f;
+        text-align: center;
+    }
+    .p1 img {
+        top: 550px;
+    }
+    
+}

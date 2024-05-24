@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');  /* For font family */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    scroll-behavior: smooth;
+}
+
+.fullpage {
+    background-color: black;
+}
+
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: #181c20;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.nav a {
+    font-size: 30px;
+    padding-top: 8PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #00c2de;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+.nav a:hover {
+    color: #ffffff;
+    font-size: 32px;
+    
+}
+
+
+
+
+.img1 {
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-image: url(mainimg.jpg);
+    background-size: cover;
+}
+.img1 p {
+    font-size: 95px;
+    color: #fff;
+    position: absolute;
+    left: 35px;
+    top: 340px;  
+}
+
+
+.content {
+    padding-top: 40px ;
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: black;
+}
+.text1 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+}
+.content h1 {
+    color: #00c2de;
+    font-size: 50px;
+    font-family: 'Racing Sans One';
+    padding: 10px;
+    padding-left: 40px;
+}
+.content h3 {
+    color: #fff;
+    font-size: 40px;
+    padding: 40px;
+    font-family: 'Racing Sans One';
+}
+.content p {
+    color: #fff;
+}
+hr {
+    color: gray;
+}
+/* u {
+    color: orangered;
+} */
+.leftc {
+    height: auto;
+    width: 50%;
+}
+.rightc {
+    height: auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px; 
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* .images {
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #181c20;
+}
+.images img {
+    padding: 60px;
+    transition-duration: 0.6s;                             
+}
+.images img:hover {
+    border-radius: 200px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+} */
+
+
+.slideshow-container {  
+    background-color: black;
+    padding: 20px;   /* images */
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+
+
+
+
+.view {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    
+      
+}
+.view iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 80%;
+    border-radius: 60px;
+}
+
+
+
+
+
+.design {
+    height: auto;
+    width: 100%;
+    background-color: #181c20;
+    color: #fff;
+}
+.din {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;  
+}
+.design p {
+    height: auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px; 
+    font-family:'Times New Roman', Times, serif;
+}
+.design h3 {
+    height: auto;
+    
+    text-align: center;
+    padding: 30px;
+    font-size: 50px; 
+    font-family:'Times New Roman', Times, serif;
+}
+.design h1 {
+    color: #00c2de;
+    font-size: 50px;
+    font-family: 'Racing Sans One';
+    padding: 10px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.design img {
+    height: auto;
+    width: 50%;
+}
+.vdoad {        /* video*/
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    /* padding: 20px; */
+    background-color: black;
+    padding-top: 30px;
+}
+.vdoad video {
+    height: 630px;
+}
+
+
+
+
+
+
+
+.container {
+    padding-top: 150px;
+    position: inherit;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* padding: 10px; */
+    justify-content: space-evenly;
+}
+.inspeed {
+    width: 55vmin;
+    height: 42vmin;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 16px;
+    background-color: #21242b;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inspeed:hover {
+    background-color: gray;
+}
+i {
+    color: #fff;
+    font-size: 4.5em;
+    text-align: center;
+}
+span.num {
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 4em;
+}
+span.km {
+    color: #fff;
+    font-size: 3em;
+    padding: 0.1em 0;
+    font-weight: 500;
+    display: grid;
+    place-items: center;
+}
+.inspeed p {
+    position: relative;
+    font-size: 25px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.avbmain{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.avb .avba {
+    text-decoration: none;
+}
+.avb {
+    width: auto;
+    font-size: 40px;
+    background-color: black;
+    color: orangered;
+    padding: 5px;
+    cursor: pointer;
+}
+.avb a {
+    text-decoration: none;
+    color: orangered;
+    transition: 0.5s;
+    padding: 7px;
+
+}
+.avb a:hover {
+    color: #ffffff;
+}
+.avb h2 {
+    border: 2px solid white;
+}
+
+/* footer */
+
+.fcontent {
+    height: 600px;
+    width: 100%;
+    background-color: #181C20;
+    display: flex;
+    justify-content: space-between;
+}
+.fcontent .p1 {
+    width: 70%;
+    text-align: center;
+}
+.p1 h4 {
+    margin: 50px;
+    font-size: 35px;
+    color:#fff; 
+}
+.p1 a {
+    color: #9da8ad;
+    font-size: 30px;
+    padding: 20px; 
+    transition: 0.2s; 
+}
+.p1 a:hover {
+    color: #ffffff;
+}
+.fcontent .p2 {
+    height: 500px;
+    width: 30%;
+    background-color: #36454f;
+    text-align: center;
+    padding: 50px;
+}
+.p2 h4 {
+    font-size: 35px;
+    color:#fff;
+}
+.p2 a {
+    color: #9da8ad;
+    font-size: 30px; 
+    transition: 0.2s; 
+
+}
+.p2 a:hover {
+    color: #ffffff;
+}
+.p1 img {
+    padding: 25px;
+    max-width: 300px;
+    filter: invert(1);
+    float: left;
+    position: relative;
+    top: 8%;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+
+
+
+.foot img {
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative  ;
+}
+
+
+.fixedButton{
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 600px) {
+    .nav {
+        height: 20px;
+    }
+    .nav a {
+        padding-top: 4PX;
+
+        font-size: 12px;
+ 
+    }
+    .img1 {
+        height: 100px;
+        width: 100%;
+    }
+    .text1 {
+        display: flex;
+    flex-direction: column;
+    }
+    .content h1 {
+        text-align: center;
+        font-size: 35px;
+        padding-left: 0;
+    }
+    .content h3 {
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+        font-family: 'Racing Sans One';
+    }
+    .leftc {
+        height: auto;
+        width: 100%;
+    }
+    .rightc {
+        height: auto;
+        width: 100%;
+        text-align: left;
+        font-size: 25px; 
+    }
+    .images img {
+        height: 250px;
+    }
+    .din {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;  
+    }
+    .design p{
+        height: auto;
+        width: 100%;
+        text-align: left;
+        font-size: 25px; 
+    }
+    .design img {
+        height: auto;
+        width: 100%;
+    }
+    .img1 p {
+        font-size: 35px;
+        color: #fff;
+        position: absolute;
+        left: 15px;
+        top: 80px;  
+    }
+    .vdoad {        /* video*/
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 100%;
+        padding: 20px;
+        background-color: black;
+    }
+    .container {
+        width: 95vw;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+    .inspeed {
+        height: 65vw;
+        width: calc(90% - 20px);
+        font-size: 14px;
+        margin: 15px;
+    }
+    .view {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        
+    }
+    .view iframe {
+        height: 300px;
+        width: 100%;
+    }
+    .fcontent {
+        display: grid;
+    }
+    .fcontent .p1 {
+        width: 100%;
+        text-align: center;
+    }
+    .fcontent .p2 {
+       
+        width: 77%;
+        background-color: #36454f;
+        text-align: center;
+    }
+    .p1 img {
+        top: 550px;
+    }
+    
+
+
+}

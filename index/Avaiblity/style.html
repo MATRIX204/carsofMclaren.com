@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Check avaiblity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="logo">
+  <img src="logo.png" alt="logo"/>
+</div>
+<div class="contant">
+    <h2>Our current active spots</h2>
+    <h4>Please select your country :   </h4>
+    <select id="country">
+        <option value="">Select Country</option>
+        <option value="United States">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="Mexico">Mexico</option>
+    </select>
+    
+    <select id="city">
+        <option value="">Select City</option>
+    </select>
+</div>
+
+<script>
+// Create a function to populate the city dropdown menu based on the selected country
+function populateCityDropdown() {
+  var country = document.getElementById("country").value;
+  var cityDropdown = document.getElementById("city");
+
+  // Clear the city dropdown menu
+  cityDropdown.innerHTML = "";
+
+  // Add a new option to the city dropdown menu for each city in the selected country
+  for (var i = 0; i < cities[country].length; i++) {
+    var city = cities[country][i];
+    var option = document.createElement("option");
+    option.value = city;
+    option.text = city;
+    cityDropdown.appendChild(option);
+  }
+}
+
+// Add an event listener to the country dropdown menu to call the populateCityDropdown() function when the selected country changes
+document.getElementById("country").addEventListener("change", populateCityDropdown);
+
+// Create an object containing a list of cities for each country
+var cities = {
+  "United States": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"],
+  "Canada": ["Toronto", "Montreal", "Vancouver", "Calgary", "Ottawa"],
+  "Mexico": ["Mexico City", "Guadalajara", "Monterrey", "Puebla", "Toluca"]
+};
+
+// Call the populateCityDropdown() function to populate the city dropdown menu with the initial list of cities
+populateCityDropdown();
+</script>
+
+
+
+
+<div class="book">
+  <h1>Book Your Test drive</h1>
+  <label>Select your date : 
+  <input class="date" type="date"/>
+</label>
+  
+</div>
+<div class="app-time">
+  <div>
+    <h1>Available Timing Slots</h1><br>
+    <p>9:00AM to 12:00PM</p>
+    <div class="app-check">
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">9:00 AM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" disabled name="example" />
+      <div class="app-border">
+
+        <label class="app-label">9:30 AM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">10:00 AM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">10:30 AM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">11:00 AM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example"  />
+      <div class="app-border">
+
+        <label class="app-label">11:30 AM
+        </label>
+      </div>
+    </div>
+  </div>
+  <div>
+    <p>Timings</p>
+    <p>1:00PM to 5:00PM</p>
+    <div class="app-check">
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">1:00 PM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">1:30 PM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">2:00 PM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example"  />
+      <div class="app-border">
+
+        <label class="app-label">2:30 PM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">3:00 PM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example"  />
+      <div class="app-border">
+
+        <label class="app-label">3:30 PM
+        </label>
+      </div>
+      <input type="radio" class="option-input radio" name="example" />
+      <div class="app-border">
+
+        <label class="app-label">4:00 PM
+        </label>
+      </div>
+
+      <input type="radio" class="option-input radio" name="example"  />
+      <div class="app-border">
+
+        <label class="app-label">4:30 PM
+        </label>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McLaren Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="Source.css">
+</head>
+<body>
+    <header>
+        <!-- <span class="year">2020-2024</span> -->
+        <br>
+        <a href="http://127.0.0.1:5500/Souce.html#" class="logo"><img src="png/logo.png" alt="logo"/></a>
+        <a href="#" class="menu" onclick="toggleMenu();"></a>
+    </header>
+
+    <div class="banner">
+        <ul class="nav">
+            <li><a href="Login page source/login.html" target="_blank">Login</a></li>
+            <li><a href="news/news.html" target="_blank">Latest News</a></li>
+            <li><a href="terms & conditions/t_and_c.html" target="_blank">Terms & Conditions</a></li>
+            <li><a href="#">Option 4</a></li>
+            <li><a href="#">Option 5</a></li>
+        </ul>
+
+<!-- background videos -->
+        <div class="bg-video-list">
+            
+            <video
+                class="bg-video mclaren-1 active"
+                src="video/mclaren-1.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-2 "
+                src="video/mclaren-2.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-3"
+                src="video/mclaren-3.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-4"
+                src="video/mclaren-4.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-5 "
+                src="video/mclaren-5.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-6 "
+                src="video/mclaren-6.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-7 "
+                src="video/mclaren-7.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-10 "
+                src="video/mclaren-10.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+            <video
+                class="bg-video mclaren-11 "
+                src="video/mclaren-11.mp4" 
+                autoplay
+                loop
+                muted
+            ></video>
+        </div>
+
+<!-- Car Content and inquery button -->
+        <div class="content"> 
+        <h1>McLAREN</h1>
+        
+        <h3 class="model mclaren-1 active">765LT SPIDER <br>
+            <a href="Sub pages/765LT/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-2" style="color: #92ff00">ARTURA <br>
+            <a href="Sub pages/ARTURA/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-3" style="color: #ff0015">750S <br>
+            <a href="Sub pages/750S/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-4" style="color: #ff2e00">765LT <br>
+            <a href="Sub pages/765LT/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-5" style="color: #bbc0dd">750S SPIDER <br>
+            <a href="Sub pages/750S SPIDER/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-6" style="color: #ff0015">P1 <br>
+            <a href="Sub pages/P1/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-7" style="color: #ff0015">SOLUS GT <br>
+            <a href="Sub pages/soults gt/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-10" style="color: #fbb117">620R <br>
+            <a href="Sub pages/620R/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <h3 class="model mclaren-11" style="color: #fbb117">ARTURA SPIDER <br>
+            <a href="Sub pages/ARTURA SPIDER/SolusGT.html" target="_blank" style="font-size: 20px;">More Info</a></h3>
+
+        <p><br>
+            Lorem ipsum dolor sit amet consectetur elit. Hic nobis
+            accusamus aperiam laborm placeat non dicta nostrum insto rernm deleniti
+        </p>
+            
+        </div>
+
+<!-- Cars Photos -->
+        <div class="gallery">
+            <div class="carousel">
+                
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-1');">
+                    <img src="img/mclaren-1.jpg" alt="">
+                    <h4>765LT SPIDER</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-2');">
+                    <img src="img/mclaren-2.jpg" alt="">
+                    <h4 style="color: #92ff00">ARTURA</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-3');">
+                    <img src="img/mclaren-3.jpeg" alt="">
+                    <h4 style="color: #ff0015">750S</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-4');">
+                    <img src="img/mclaren-4.jpeg" alt="">
+                    <h4 style="color: #ff2e00">765LT</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-5');">
+                    <img src="img/mclaren-5.jpeg" alt="">
+                    <h4 style="color: #bbc0dd">750S SPIDER</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-6');">
+                    <img src="img/mclaren-6.jpg" alt="">
+                    <h4 style="color: #ff0015">P1</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-7');">
+                    <img src="img/mclaren-7.jpg" alt="">
+                    <h4 style="color: #bbc0dd">SOLUS GT</h4>
+                </a>
+               
+               <a class="carousel-item" href="#" onclick="changeVideo('mclaren-10');">
+                    <img src="img/mclaren-10.jpg" alt="">   
+                    <h4 style="color: #fbb117">620R</h4>   
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-11');">
+                    <img src="img/mclaren-11.jpg" alt="">
+                    <h4 style="color: #fbb117">ARTURA SPIDER</h4>
+                </a>
+              </div>
+        </div>
+
+    </div>
+
+
+                     <!-- Java Script Zone -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="Source.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
